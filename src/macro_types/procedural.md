@@ -13,11 +13,3 @@ Types:
 * Function-like
 * Derive
 * Attribute
-
-    ```rust,ignore
-    #[custom_attribute]
-    fn do_something() {}
-
-    #[custom_attribute]
-    struct Hello;
-    ```

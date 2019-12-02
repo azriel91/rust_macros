@@ -17,3 +17,14 @@ map! {
     "key_1" => 456,
 };
 ```
+
+```rust
+println!("hi");
+println! { "hi" };
+println!["hi"];
+
+let numbers_0 = vec! { 1, 2, 3 };
+let numbers_1 = vec!(1, 2, 3);
+println!("{:?}", numbers_0);
+println! { "{:?}", numbers_1 };
+```

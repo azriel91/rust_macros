@@ -1,8 +1,8 @@
 # 👥 Reduce duplication
 
-**Scenario:** Writing similar syntax for multiple cases.
+**Scenario:** Writing similar syntax.
 
-<details>
+<details open>
 
 <summary>Without macro</summary>
 
@@ -42,7 +42,7 @@ fn on_pause_delegates_to_state() {
 
 </details>
 
-<details>
+<details open>
 
 <summary>With macro</summary>
 

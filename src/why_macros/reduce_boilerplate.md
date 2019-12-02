@@ -2,6 +2,22 @@
 
 **Scenario:** Newtype that behaves like a number -- math operators work as any numeric type.
 
+```rust,ignore
+/// Good programmer: Strongly typed instead of Stringly typed.
+pub struct HealthPoints(pub u32);
+
+let mut me = HealthPoints(99);
+let heal = HealthPoints(1);
+
+// Want: 100 health
+
+me.0 = me.0 + heal.0; // Not ergonomic
+me = me + heal;
+// me = me - heal;
+// me += heal;
+// me -= heal;
+```
+
 <details open>
 
 <summary>No macros</summary>

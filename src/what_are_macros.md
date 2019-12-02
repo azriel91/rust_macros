@@ -32,6 +32,9 @@
 
     ```rust
     let (a, b) = (3., 2.);
+
+    println!();
+    println!("hello");
     println!(
         "{a:.1} ÷ {b:.1} = {answer:.2}",
         a = a,
